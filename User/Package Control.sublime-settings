@@ -1,0 +1,16 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"ExpandRegion",
+		"JsFormat",
+		"Package Control"
+	],
+	"repositories":
+	[
+		"https://github.com/jdc0589/JsFormat"
+	]
+}

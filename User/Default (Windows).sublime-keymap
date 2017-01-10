@@ -1,0 +1,57 @@
+[{
+	"keys": ["ctrl+alt+r"],
+	"command": "reindent",
+	"args": {
+		"single_line": false
+	}
+}, {
+	"keys": ["alt+shift+up"],
+	"command": "swap_line_up"
+}, {
+	"keys": ["alt+shift+down"],
+	"command": "swap_line_down"
+}, {
+	"keys": ["f12"],
+	"command": "build"
+}, {
+	"channels": [
+		"C:/Users/youedata/Downloads"
+	]
+},
+
+{
+	"keys": ["alt+shift+w"],
+	"command": "expand_selection",
+	"args": {
+		"to": "scope"
+	}
+}, {
+	"keys": ["ctrl+alt+f"],
+	"command": "js_format",
+	"context": [{
+		"key": "selector",
+		"operator": "equal",
+		"operand": "source.javascript"
+	}]
+}, {
+	"keys": ["ctrl+r"],
+	"command": "show_panel",
+	"args": {
+		"panel": "replace",
+		"reverse": false
+	}
+}, {
+	"keys": ["alt+ctrl+left"],
+	"command": "jump_back"
+}, {
+	"keys": ["alt+ctrl+right"],
+	"command": "jump_forward"
+}, {
+	"keys": ["ctrl+l"],
+	"command": "run_macro_file",
+	"args": {
+		"file": "res://Packages/Default/Delete Line.sublime-macro"
+	}
+},
+
+]
